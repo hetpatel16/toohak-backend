@@ -1,0 +1,212 @@
+{
+  "users": [
+    {
+      "userId": 1,
+      "email": "yntiq2j4@example.com",
+      "password": "0de3f42a37488c7cdb1df0b9d807d563220a2b102c67ef92f616fd1689c85291",
+      "nameFirst": "Adam",
+      "nameLast": "Sandler",
+      "numSuccessfulLogins": 1,
+      "numFailedPasswordsSinceLastLogin": 0,
+      "passwordHistory": []
+    },
+    {
+      "userId": 2,
+      "email": "test@user.com",
+      "password": "008c70392e3abfbd0fa47bbc2ed96aa99bd49e159727fcba0f2e6abeb3a9d601",
+      "nameFirst": "Test",
+      "nameLast": "User",
+      "numSuccessfulLogins": 1,
+      "numFailedPasswordsSinceLastLogin": 0,
+      "passwordHistory": []
+    }
+  ],
+  "quizzes": [
+    {
+      "quizId": 1,
+      "userId": 2,
+      "name": "Test quiz",
+      "description": "test quiz",
+      "timeCreated": 1755418036,
+      "timeLastEdited": 1755418085,
+      "questions": [
+        {
+          "questionId": 1,
+          "question": "how many sides does a triangle have?",
+          "timeLimit": 5,
+          "points": 5,
+          "answerOptions": [
+            {
+              "answerId": 1,
+              "answer": "1",
+              "correct": false,
+              "colour": "pink"
+            },
+            {
+              "answerId": 2,
+              "answer": "2",
+              "correct": false,
+              "colour": "pink"
+            },
+            {
+              "answerId": 3,
+              "answer": "3",
+              "correct": true,
+              "colour": "orange"
+            },
+            {
+              "answerId": 4,
+              "answer": "4",
+              "correct": false,
+              "colour": "green"
+            }
+          ],
+          "thumbnailUrl": "https://www.unsw.edu.au/content/dam/images/photos/events/open-day/2020-12-homepage-update/OpenDay_2019_campaign%20-0307-crop.cropimg.width=1920.crop=square.jpg"
+        },
+        {
+          "questionId": 2,
+          "question": "how many sides does a square have?",
+          "timeLimit": 5,
+          "points": 5,
+          "answerOptions": [
+            {
+              "answerId": 1,
+              "answer": "1",
+              "correct": false,
+              "colour": "green"
+            },
+            {
+              "answerId": 2,
+              "answer": "2",
+              "correct": false,
+              "colour": "blue"
+            },
+            {
+              "answerId": 3,
+              "answer": "3",
+              "correct": false,
+              "colour": "blue"
+            },
+            {
+              "answerId": 4,
+              "answer": "4",
+              "correct": true,
+              "colour": "green"
+            }
+          ],
+          "thumbnailUrl": "https://www.unsw.edu.au/content/dam/images/photos/events/open-day/2020-12-homepage-update/OpenDay_2019_campaign%20-0307-crop.cropimg.width=1920.crop=square.jpg"
+        }
+      ],
+      "timeLimit": 10,
+      "thumbnailUrl": ""
+    }
+  ],
+  "sessions": [
+    {
+      "session": "1070f630-1e58-4962-bbea-183e0ae48786",
+      "userId": 1,
+      "createdAt": 1754663799721
+    },
+    {
+      "session": "85f282e0-28e5-4691-b102-83d1aeae23cf",
+      "userId": 2,
+      "createdAt": 1755418021177
+    }
+  ],
+  "games": [
+    {
+      "quizId": 1,
+      "gameId": 1,
+      "state": "LOBBY",
+      "autoStartNum": 10,
+      "players": [],
+      "atQuestion": 0
+    },
+    {
+      "quizId": 1,
+      "gameId": 2,
+      "state": "LOBBY",
+      "autoStartNum": 0,
+      "players": [
+        {
+          "playerId": 1,
+          "playerName": "HEAT",
+          "gameId": 2,
+          "joinedAt": 1755418107055
+        },
+        {
+          "playerId": 2,
+          "playerName": "player 2",
+          "gameId": 2,
+          "joinedAt": 1755418116123
+        }
+      ],
+      "atQuestion": 0
+    },
+    {
+      "quizId": 1,
+      "gameId": 3,
+      "state": "QUESTION_CLOSE",
+      "autoStartNum": 0,
+      "players": [],
+      "atQuestion": 1,
+      "startCountDown": "7cdb9595-8738-41a6-8653-1a55ace94d44",
+      "startQuestionTimer": "905f460e-ea7b-44b3-ac2e-5638a94b7609"
+    },
+    {
+      "quizId": 1,
+      "gameId": 4,
+      "state": "LOBBY",
+      "autoStartNum": 10,
+      "players": [],
+      "atQuestion": 0
+    },
+    {
+      "quizId": 1,
+      "gameId": 5,
+      "state": "LOBBY",
+      "autoStartNum": 10,
+      "players": [],
+      "atQuestion": 0
+    },
+    {
+      "quizId": 1,
+      "gameId": 6,
+      "state": "FINAL_RESULTS",
+      "autoStartNum": 0,
+      "players": [
+        {
+          "playerId": 3,
+          "playerName": "heat",
+          "gameId": 6,
+          "joinedAt": 1755418174140
+        }
+      ],
+      "atQuestion": 2,
+      "startCountDown": "7ce5e797-4230-45e3-9f4b-51c9e537bb63",
+      "startQuestionTimer": "1d2b1185-c405-47ae-8915-f119fd77cfa3"
+    }
+  ],
+  "playerAnswers": [
+    {
+      "playerId": 3,
+      "questionPosition": 1,
+      "answerIds": [
+        3
+      ],
+      "submittedAt": 1755418183239
+    },
+    {
+      "playerId": 3,
+      "questionPosition": 2,
+      "answerIds": [
+        3
+      ],
+      "submittedAt": 1755418207436
+    }
+  ],
+  "nextUserId": 3,
+  "nextQuizId": 2,
+  "nextGameId": 7,
+  "nextPlayerId": 4
+}
