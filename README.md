@@ -50,7 +50,7 @@ To get this backend running locally:
 After starting the server, the backend will be running locally, ready to connect with the frontend or be tested via API tools like Postman.
 
 ## 📚 Testing
-Run tests with:
+* Run tests with:
     ```bash
     npm test
 
